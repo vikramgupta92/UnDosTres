@@ -15,7 +15,7 @@ public class ReusableMethods {
 
 	public WebDriver driver;
 
-	//For click Element
+	// For click Element
 	public void clickElement(WebDriver driver, WebElement element) {
 		try {
 			// waitForElementClickable(driver, element);
@@ -31,7 +31,7 @@ public class ReusableMethods {
 
 	}
 
-	//For Double Click
+	// For Double Click
 	public void doubleClickElement(WebDriver driver, WebElement element) {
 		try {
 			Actions actions = new Actions(driver);
@@ -46,7 +46,7 @@ public class ReusableMethods {
 		}
 	}
 
-	//Wait for Element to Clickable
+	// Wait for Element to Clickable
 	public void waitForElementClickable(WebDriver driver, WebElement element) {
 		try {
 			WebDriverWait wait = new WebDriverWait(driver, 10);
@@ -61,7 +61,7 @@ public class ReusableMethods {
 		}
 	}
 
-	//To Enter text in field
+	// To Enter text in field
 	public void enterText(WebDriver driver, WebElement element, String text) {
 		try {
 			waitForElementClickable(driver, element);
@@ -75,8 +75,8 @@ public class ReusableMethods {
 
 		}
 	}
-	
-	//To Clear Text 
+
+	// To Clear Text
 	public void clearText(WebDriver driver, WebElement element) {
 		try {
 			waitForElementClickable(driver, element);
@@ -91,7 +91,7 @@ public class ReusableMethods {
 		}
 	}
 
-	//Explicit Wait
+	// Explicit Wait
 	public void explicitWait(WebDriver driver, WebElement element) {
 		try {
 			Wait<WebDriver> wait = new WebDriverWait(driver, 10);
@@ -107,7 +107,7 @@ public class ReusableMethods {
 		}
 	}
 
-	//Implicit Wait
+	// Implicit Wait
 	public void implicitWait(WebDriver driver) {
 		try {
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);

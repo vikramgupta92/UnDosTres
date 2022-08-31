@@ -5,6 +5,7 @@
     <classes>
       <class name="org.automation.UnDosTres.testcases.TC_001VerifyRechargeFlow">
         <methods>
+          <include name="close"/>
           <include name="test"/>
           <include name="launch"/>
         </methods>

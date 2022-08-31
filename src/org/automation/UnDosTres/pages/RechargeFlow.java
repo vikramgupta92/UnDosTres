@@ -101,7 +101,8 @@ public class RechargeFlow {
 		reusableMethods.clickElement(driver, amount);
 
 		reusableMethods.clickElement(driver, rechargeButton);
-		Thread.sleep(10000);
+
+		reusableMethods.implicitWait(driver);
 
 	}
 
@@ -136,9 +137,10 @@ public class RechargeFlow {
 		reusableMethods.enterText(driver, userName, usersName);
 
 		reusableMethods.enterText(driver, password, pwd);
-		Thread.sleep(10000);
-
+		Thread.sleep(5000);
+		
 		reusableMethods.clickElement(driver, capatcha);
+
 		Thread.sleep(5000);
 
 		reusableMethods.clickElement(driver, submit);

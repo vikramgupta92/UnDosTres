@@ -2,19 +2,23 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="75888" started-at="2022-08-30T15:04:30 IST" finished-at="2022-08-30T15:05:46 IST">
+  <suite name="Default suite" duration-ms="59347" started-at="2022-09-01T00:04:27 IST" finished-at="2022-09-01T00:05:26 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="75888" started-at="2022-08-30T15:04:30 IST" finished-at="2022-08-30T15:05:46 IST">
+    <test name="Default test" duration-ms="59347" started-at="2022-09-01T00:04:27 IST" finished-at="2022-09-01T00:05:26 IST">
       <class name="org.automation.UnDosTres.testcases.TC_001VerifyRechargeFlow">
-        <test-method status="PASS" signature="launch()[pri:0, instance:org.automation.UnDosTres.testcases.TC_001VerifyRechargeFlow@709ba3fb]" name="launch" is-config="true" duration-ms="22733" started-at="2022-08-30T15:04:30 IST" finished-at="2022-08-30T15:04:53 IST">
+        <test-method status="PASS" signature="launch()[pri:0, instance:org.automation.UnDosTres.testcases.TC_001VerifyRechargeFlow@3d36e4cd]" name="launch" is-config="true" duration-ms="26126" started-at="2022-09-01T00:04:27 IST" finished-at="2022-09-01T00:04:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="test()[pri:0, instance:org.automation.UnDosTres.testcases.TC_001VerifyRechargeFlow@709ba3fb]" name="test" duration-ms="52989" started-at="2022-08-30T15:04:53 IST" finished-at="2022-08-30T15:05:46 IST">
+        <test-method status="PASS" signature="test()[pri:0, instance:org.automation.UnDosTres.testcases.TC_001VerifyRechargeFlow@3d36e4cd]" name="test" duration-ms="32856" started-at="2022-09-01T00:04:53 IST" finished-at="2022-09-01T00:05:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
+        <test-method status="PASS" signature="close()[pri:0, instance:org.automation.UnDosTres.testcases.TC_001VerifyRechargeFlow@3d36e4cd]" name="close" is-config="true" duration-ms="283" started-at="2022-09-01T00:05:26 IST" finished-at="2022-09-01T00:05:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
       </class> <!-- org.automation.UnDosTres.testcases.TC_001VerifyRechargeFlow -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
