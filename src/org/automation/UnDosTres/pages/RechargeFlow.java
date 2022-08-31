@@ -120,8 +120,6 @@ public class RechargeFlow {
 
 		reusableMethods.clickElement(driver, paymentOptionSelection);
 
-		reusableMethods.clickElement(driver, paymentOptionSelection);
-
 		reusableMethods.enterText(driver, cardNumber, Numbercard);
 
 		reusableMethods.enterText(driver, expiryMonth, monthExpiry);
